@@ -27,7 +27,7 @@ scrape_age <- function(x,y) {
     as.integer()
   
   w <- length(y) %/% 2
-  for(i in 1:17){
+  for(i in 1:w){
     z <- c(z, odd[i])
     z <- c(z, even[i])
     
